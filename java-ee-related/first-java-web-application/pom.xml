@@ -37,7 +37,7 @@
 					<version>2.2</version>
 					<configuration>
 						<port>1234</port>
-						<path>/</path>
+						<path>/fjwa</path>
 						<contextReloadable>true</contextReloadable>
 					</configuration>
 				</plugin>
