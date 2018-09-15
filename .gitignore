@@ -1,0 +1,10 @@
+# Compiled class file
+*.class
+
+# ignore Maven generated target folder
+/java-ee-related/first-java-web-application/target/
+
+# for Eclipse IDE
+*.project
+*.classpath
+*.settings
