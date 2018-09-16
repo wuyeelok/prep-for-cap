@@ -14,8 +14,6 @@
     <h1>Login JSP</h1>
 
    <p>My First JSP</p>
-   <p>My name is ${username}!!!</p>
-   <p>My password is ${password}</p>
    
    <form action="/fjwa/login.do" method="post">
    	<fieldset>
