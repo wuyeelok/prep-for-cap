@@ -10,24 +10,23 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.kennethwu.todo.TodoService;
 
-@WebServlet(urlPatterns="/delete-todo.do")
-public class DeleteTodoServlet extends HttpServlet {
+@WebServlet(urlPatterns="/add-todo.do")
+public class AddTodoServlet extends HttpServlet {
 
 	
 	private static final long serialVersionUID = 1L;
+	
 
 	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse res) 
+	protected void doPost(HttpServletRequest req, HttpServletResponse res) 
 			throws ServletException, IOException {
+		Todo newTodo = new Todo(req.getParameter("newTodoName"), req.getParameter("newTodoCategory"));
 		
-		Todo deleteTodo = new Todo(req.getParameter("todoName"), req.getParameter("todoCategory"));
-		
-		TodoService.removeTodo(deleteTodo);
+		TodoService.addTodo(newTodo);
 		
 		res.sendRedirect("/fjwa/list-todo.do");
 	}
 
-	
 	
 	
 	

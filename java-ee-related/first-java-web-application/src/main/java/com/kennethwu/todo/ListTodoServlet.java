@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.kennethwu.todo.TodoService;
 
-@WebServlet(urlPatterns="/todo.do")
-public class TodoServlet extends HttpServlet {
+@WebServlet(urlPatterns="/list-todo.do")
+public class ListTodoServlet extends HttpServlet {
 
 	
 	private static final long serialVersionUID = 1L;
@@ -20,20 +20,8 @@ public class TodoServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) 
 			throws ServletException, IOException {
 		req.setAttribute("todos", TodoService.getTodos());
-		req.getRequestDispatcher("/WEB-INF/views/todo.jsp").forward(req, res);
-	}
-
-	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse res) 
-			throws ServletException, IOException {
-		Todo newTodo = new Todo(req.getParameter("newTodoName"), req.getParameter("newTodoCategory"));
-		
-		TodoService.addTodo(newTodo);
-		
-		res.sendRedirect("/fjwa/todo.do");
-	}
-
-	
+		req.getRequestDispatcher("/WEB-INF/views/list-todo.jsp").forward(req, res);
+	}	
 	
 	
 }

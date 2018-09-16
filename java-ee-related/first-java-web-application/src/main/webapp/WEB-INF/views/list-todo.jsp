@@ -25,7 +25,7 @@
 		        	<a class="nav-link" href="#">Home</a>
 		      	</li>
 		      	<li class="nav-item">
-					<a class="nav-link" href="/fjwa/todo.do">Todos</a>
+					<a class="nav-link" href="/fjwa/list-todo.do">Todos</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="https://in28minutes1.teachable.com/courses/enrolled/259228">in28Minutes</a>
@@ -52,7 +52,7 @@
 			
 		</ol>
 		
-		<form action="/fjwa/todo.do" method="post">
+		<form action="/fjwa/add-todo.do" method="post">
 			<fieldset class="form-group">
 				<label id="newTodoName">New Todo Name:&nbsp;</label>
 				<input type="text" id="newTodoName" name="newTodoName" class="form-control form-control-sm" required/>
