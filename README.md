@@ -2,9 +2,9 @@
 
 ## Redo [Java Servlets and JSP - Build Java EE(JEE) app in 25 Steps](https://in28minutes1.teachable.com/courses/enrolled/259228)
 
-* Refresh basic ```Java EE``` concept and skills
+- [x] Refresh basic ```Java EE``` concept and skills
 
-Target completion date: **16-Sep-2018**
+- [x] Target completion date: **16-Sep-2018**
 
 ## Learn Struts 2
 ### Complete this [tutorial](https://www.youtube.com/watch?v=f46WEeM8HTA&list=PLB7BB551126EDD5E0&index=1)
