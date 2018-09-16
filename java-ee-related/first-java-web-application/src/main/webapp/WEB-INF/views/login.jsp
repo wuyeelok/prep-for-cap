@@ -26,5 +26,6 @@
    	</fieldset>
    	<button type="submit">Login</button>
    </form>
+   <div>${errorMessage}</div>
   </body>
 </html>

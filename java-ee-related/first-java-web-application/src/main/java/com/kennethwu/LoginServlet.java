@@ -23,8 +23,18 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) 
 			throws ServletException, IOException {
-		req.setAttribute("username", req.getParameter("username"));
-		req.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(req, res);
+		String username = req.getParameter("username");
+		String password = req.getParameter("password");
+		
+		if(UserValidationService.isUserValid(username, password)) {
+			req.setAttribute("username", username);
+			req.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(req, res);
+		} else {
+			req.setAttribute("errorMessage", "Invalid Credentials");
+			req.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(req, res);
+		}
+		
+		
 	}
 	
 	
