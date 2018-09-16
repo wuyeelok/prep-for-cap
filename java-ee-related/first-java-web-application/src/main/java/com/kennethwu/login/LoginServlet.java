@@ -29,11 +29,7 @@ public class LoginServlet extends HttpServlet {
 		String password = req.getParameter("password");
 		
 		if(LoginService.isUserValid(username, password)) {
-			req.setAttribute("username", username);
-			
-			req.setAttribute("todos", TodoService.getTodos());
-			
-			req.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(req, res);
+			res.sendRedirect("/fjwa/todo.do");			
 		} else {
 			req.setAttribute("errorMessage", "Invalid Credentials");
 			req.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(req, res);
