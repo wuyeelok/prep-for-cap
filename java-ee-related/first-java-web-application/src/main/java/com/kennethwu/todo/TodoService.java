@@ -17,7 +17,11 @@ public class TodoService {
 		return todos;
 	}
 	
-	public static void add(Todo todo) {
+	public static void addTodo(Todo todo) {
 		todos.add(todo);
+	}
+	
+	public static void removeTodo(Todo todo) {
+		todos.remove(todo);
 	}
 }

@@ -17,7 +17,8 @@
 	<ol>
 		
 		<c:forEach items="${todos}" var="todo">
-			<li>${todo.name},&nbsp;Category:&nbsp;${todo.category}</li>
+			<li>${todo.name},&nbsp;Category:&nbsp;${todo.category}&nbsp;&nbsp;
+			<a href="/fjwa/delete-todo.do?todoName=${todo.name}&todoCategory=${todo.category}">Delete</a></li>
 		</c:forEach>
 		
 	</ol>
