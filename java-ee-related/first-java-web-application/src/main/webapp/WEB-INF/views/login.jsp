@@ -14,7 +14,19 @@
     <h1>Login JSP</h1>
 
    <p>My First JSP</p>
-   <p>My name is ${name}!!!</p>
+   <p>My name is ${username}!!!</p>
    <p>My password is ${password}</p>
+   
+   <form action="/fjwa/login.do" method="post">
+   	<fieldset>
+   		<label for="username">Username:&nbsp;</label>
+   		<input type="text" id="username" name="username" required/>
+   	</fieldset>
+   	<fieldset>
+   		<label for="password">Password:&nbsp;</label>
+   		<input type="password" id="password" name="password" required/>
+   	</fieldset>
+   	<button type="submit">Login</button>
+   </form>
   </body>
 </html>
