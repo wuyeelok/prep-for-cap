@@ -1,4 +1,4 @@
-package com.kennethwu;
+package com.kennethwu.login;
 
 import java.io.IOException;
 
@@ -7,6 +7,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.kennethwu.todo.TodoService;
 
 @WebServlet(urlPatterns="/login.do")
 public class LoginServlet extends HttpServlet {
@@ -26,7 +28,7 @@ public class LoginServlet extends HttpServlet {
 		String username = req.getParameter("username");
 		String password = req.getParameter("password");
 		
-		if(UserValidationService.isUserValid(username, password)) {
+		if(LoginService.isUserValid(username, password)) {
 			req.setAttribute("username", username);
 			
 			req.setAttribute("todos", TodoService.getTodos());

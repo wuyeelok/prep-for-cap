@@ -1,4 +1,4 @@
-package com.kennethwu;
+package com.kennethwu.todo;
 
 public class Todo {
 	
