@@ -27,6 +27,7 @@ public class LoginServlet extends HttpServlet {
 		String password = req.getParameter("password");
 		
 		if(LoginService.isUserValid(username, password)) {
+			req.getSession().setAttribute("username", username);
 			res.sendRedirect("/fjwa/todo.do");			
 		} else {
 			req.setAttribute("errorMessage", "Invalid Credentials");

@@ -12,7 +12,7 @@
   </head>
   
   <body>    
-
+	<p>Welcome ${username} !!</p>
 	<p>Your Todos are:</p>
 	<ol>
 		
