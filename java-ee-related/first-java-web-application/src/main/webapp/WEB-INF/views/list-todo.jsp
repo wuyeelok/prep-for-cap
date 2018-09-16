@@ -34,7 +34,7 @@
 		  	
 		  	<ul class="nav navbar-nav">
 		  		<li class="nav-item">
-					<a class="nav-link" href="/fjwa/login.do">Login</a>
+					<a class="nav-link" href="/fjwa/logout.do">Logout</a>
 				</li>
 		  	</ul>
 	  	</nav>
