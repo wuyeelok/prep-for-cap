@@ -15,29 +15,61 @@
     <title>Todo JSP</title>
   </head>
   
-  <body>    
-	<p>Welcome ${username} !!</p>
-	<p>Your Todos are:</p>
-	<ol>
+  <body>
+  
+  	<div class="container">
+	  	<nav class="navbar navbar-expand-lg">
+	  		<a class="navbar-brand" href="#">Brand</a>
+	  		<ul class="nav navbar-nav">
+		  		<li class="nav-item active">
+		        	<a class="nav-link" href="#">Home</a>
+		      	</li>
+		      	<li class="nav-item">
+					<a class="nav-link" href="/fjwa/todo.do">Todos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://in28minutes1.teachable.com/courses/enrolled/259228">in28Minutes</a>
+				</li>
+		  	</ul>
+		  	
+		  	<ul class="nav navbar-nav">
+		  		<li class="nav-item">
+					<a class="nav-link" href="/fjwa/login.do">Login</a>
+				</li>
+		  	</ul>
+	  	</nav>
+  	</div>
+  	
+  	<div class="container">
+		<p>Welcome ${username} !!</p>
+		<p>Your Todos are:</p>
+		<ol>
+			
+			<c:forEach items="${todos}" var="todo">
+				<li>${todo.name},&nbsp;Category:&nbsp;${todo.category}&nbsp;&nbsp;
+				<a href="/fjwa/delete-todo.do?todoName=${todo.name}&todoCategory=${todo.category}">Delete</a></li>
+			</c:forEach>
+			
+		</ol>
 		
-		<c:forEach items="${todos}" var="todo">
-			<li>${todo.name},&nbsp;Category:&nbsp;${todo.category}&nbsp;&nbsp;
-			<a href="/fjwa/delete-todo.do?todoName=${todo.name}&todoCategory=${todo.category}">Delete</a></li>
-		</c:forEach>
-		
-	</ol>
+		<form action="/fjwa/todo.do" method="post">
+			<fieldset class="form-group">
+				<label id="newTodoName">New Todo Name:&nbsp;</label>
+				<input type="text" id="newTodoName" name="newTodoName" class="form-control form-control-sm" required/>
+			</fieldset>
+			<fieldset class="form-group">
+				<label id="newTodoCategory">New Todo Category:&nbsp;</label>
+				<input type="text" id="newTodoCategory" name="newTodoCategory" class="form-control form-control-sm" required/>
+			</fieldset>
+			<button type="submit" class="btn btn-success">Add</button>
+		</form>
+	</div>
 	
-	<form action="/fjwa/todo.do" method="post">
-		<fieldset>
-			<label id="newTodoName">New Todo Name:&nbsp;</label>
-			<input type="text" id="newTodoName" name="newTodoName" required/>
-		</fieldset>
-		<fieldset>
-			<label id="newTodoCategory">New Todo Category:&nbsp;</label>
-			<input type="text" id="newTodoCategory" name="newTodoCategory" required/>
-		</fieldset>
-		<button type="submit">Add</button>
-	</form>
+	<div class="container">
+   		<nav class="navbar navbar-expand-lg">
+			<a class="navbar-brand" href="#">footer content</a>
+		</nav>
+   </div>
   
    	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
