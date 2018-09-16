@@ -12,7 +12,7 @@
 	<link rel="shortcut icon" href="favicon.ico" />
     
 
-    <title>List Todo JSP</title>
+    <title>Add Todo JSP</title>
   </head>
   
   <body>
@@ -44,18 +44,20 @@
   	</div>
   	
   	<div class="container">
-		<p>Welcome ${username} !!</p>
-		<p>Your Todos are:</p>
-		<ol>
-			
-			<c:forEach items="${todos}" var="todo">
-				<li>${todo.name},&nbsp;Category:&nbsp;${todo.category}&nbsp;&nbsp;
-				<a href="/fjwa/delete-todo.do?todoName=${todo.name}&todoCategory=${todo.category}">Delete</a></li>
-			</c:forEach>
-			
-		</ol>
+		<p>Add Todo</p>
 		
-		<a href="/fjwa/add-todo.do">Add Todo</a>
+		
+		<form action="/fjwa/add-todo.do" method="post">
+			<fieldset class="form-group">
+				<label id="newTodoName">New Todo Name:&nbsp;</label>
+				<input type="text" id="newTodoName" name="newTodoName" class="form-control form-control-sm" required/>
+			</fieldset>
+			<fieldset class="form-group">
+				<label id="newTodoCategory">New Todo Category:&nbsp;</label>
+				<input type="text" id="newTodoCategory" name="newTodoCategory" class="form-control form-control-sm" required/>
+			</fieldset>
+			<button type="submit" class="btn btn-success">Add</button>
+		</form>
 	</div>
 	
 	<div class="container">

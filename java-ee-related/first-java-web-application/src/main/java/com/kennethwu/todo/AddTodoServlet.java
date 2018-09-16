@@ -17,6 +17,17 @@ public class AddTodoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 
+	
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) 
+			throws ServletException, IOException {
+		req.getRequestDispatcher("/WEB-INF/views/add-todo.jsp").forward(req, res);
+	}
+
+
+
+
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) 
 			throws ServletException, IOException {

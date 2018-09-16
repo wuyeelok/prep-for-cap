@@ -24,7 +24,10 @@
 		        	<a class="nav-link" href="#">Home</a>
 		      	</li>
 		      	<li class="nav-item">
-					<a class="nav-link" href="/fjwa/list-todo.do">Todos</a>
+					<a class="nav-link" href="/fjwa/list-todo.do">List Todos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/fjwa/add-todo.do">Add Todos</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="https://in28minutes1.teachable.com/courses/enrolled/259228">in28Minutes</a>
@@ -33,7 +36,7 @@
 		  	
 		  	<ul class="nav navbar-nav">
 		  		<li class="nav-item">
-					<a class="nav-link" href="/fjwa/login.do">Login</a>
+					<a class="nav-link" href="/fjwa/logout.do">Logout</a>
 				</li>
 		  	</ul>
 	  	</nav>
