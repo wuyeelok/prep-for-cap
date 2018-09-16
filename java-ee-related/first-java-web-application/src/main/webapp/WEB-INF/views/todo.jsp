@@ -20,6 +20,18 @@
 			<li>${todo.name},&nbsp;Category:&nbsp;${todo.category}</li>
 		</c:forEach>
 		
-	</ol> 
+	</ol>
+	
+	<form action="/fjwa/todo.do" method="post">
+		<fieldset>
+			<label id="newTodoName">New Todo Name:&nbsp;</label>
+			<input type="text" id="newTodoName" name="newTodoName" required/>
+		</fieldset>
+		<fieldset>
+			<label id="newTodoCategory">New Todo Category:&nbsp;</label>
+			<input type="text" id="newTodoCategory" name="newTodoCategory" required/>
+		</fieldset>
+		<button type="submit">Add</button>
+	</form>
   </body>
 </html>

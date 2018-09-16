@@ -17,5 +17,7 @@ public class TodoService {
 		return todos;
 	}
 	
-	
+	public static void add(Todo todo) {
+		todos.add(todo);
+	}
 }
