@@ -18,6 +18,9 @@ public class LoginServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) 
 			throws ServletException, IOException {
 		
+		String name = req.getParameter("name");
+		req.setAttribute("name", name);
+		
 		req.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(req, res);
 	}
 
