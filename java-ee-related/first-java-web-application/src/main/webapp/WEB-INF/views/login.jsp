@@ -15,6 +15,6 @@
 
    <p>My First JSP</p>
    <p>My name is ${name}!!!</p>
-   
+   <p>My password is ${password}</p>
   </body>
 </html>
