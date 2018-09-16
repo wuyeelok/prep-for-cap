@@ -1,3 +1,4 @@
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,6 +14,12 @@
   <body>    
 
 	<p>Your Todos are:</p>
-	<p>${todos}</p>  
+	<ol>
+		
+		<c:forEach items="${todos}" var="todo">
+			<li>${todo.name},&nbsp;Category:&nbsp;${todo.category}</li>
+		</c:forEach>
+		
+	</ol> 
   </body>
 </html>
