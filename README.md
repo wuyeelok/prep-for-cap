@@ -7,7 +7,9 @@
 - [x] Target completion date: **16-Sep-2018**
 
 ## Learn Struts 2
-### Complete this [tutorial](https://www.youtube.com/watch?v=f46WEeM8HTA&list=PLB7BB551126EDD5E0&index=1)
+### Complete this:
+- [] [setup tutorial](https://youtu.be/2vmsJ8WUhOU) 
+- [] [tutorial](https://www.youtube.com/watch?v=f46WEeM8HTA&list=PLB7BB551126EDD5E0&index=1)
 
 Target completion date: **26-Sep-2018**
 
