@@ -10,6 +10,4 @@
     <h2>Hello Struts2</h2>
  
  
-</body>
- 
-</html>
+<%@ include file="../common/footer.jspf" %>

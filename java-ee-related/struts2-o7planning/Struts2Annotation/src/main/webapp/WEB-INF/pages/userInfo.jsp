@@ -7,5 +7,5 @@
    <jsp:include page="../common/_menu.jsp" />
     
    <h2>Howdy, ${loginedUsername}...!</h2>
-</body>
-</html>
+
+<%@ include file="../common/footer.jspf" %>

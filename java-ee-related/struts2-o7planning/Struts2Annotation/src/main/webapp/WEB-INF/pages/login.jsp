@@ -20,6 +20,4 @@
     <br>
     Username: admin, password: admin123
  
-</body>
- 
-</html>
+<%@ include file="../common/footer.jspf" %>
