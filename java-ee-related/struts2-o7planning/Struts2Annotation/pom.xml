@@ -89,6 +89,9 @@
                 <version>2.2</version>
                 <!-- Config: contextPath and Port (Default: /Struts2Annotation : 8080) -->
                 <!-- <configuration> <path>/</path> <port>8899</port> </configuration> -->
+                <configuration>
+					<contextReloadable>true</contextReloadable>
+				</configuration>
             </plugin>
  
  
