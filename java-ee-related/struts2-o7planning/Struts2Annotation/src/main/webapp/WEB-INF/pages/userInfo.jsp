@@ -4,7 +4,7 @@
 </head>
  
 <body>
-   <jsp:include page="_menu.jsp" />
+   <jsp:include page="../common/_menu.jsp" />
     
    <h2>Howdy, ${loginedUsername}...!</h2>
 </body>

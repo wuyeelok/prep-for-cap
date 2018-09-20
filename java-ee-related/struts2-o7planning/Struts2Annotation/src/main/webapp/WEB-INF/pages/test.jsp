@@ -4,7 +4,7 @@
 </head>
  
 <body>
-   <jsp:include page="_menu.jsp" />
+   <jsp:include page="../common/_menu.jsp" />
     
    <h1>Testing Page</h1>
 </body>
