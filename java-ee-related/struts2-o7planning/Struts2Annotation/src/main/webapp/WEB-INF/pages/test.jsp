@@ -1,9 +1,5 @@
-<%@ page contentType="text/html; charset=UTF-8"%>
-<%@ taglib prefix="s" uri="/struts-tags"%>
+<%@ include file="../common/header.jspf" %>
 
-<!DOCTYPE html>
-<html>
-<head>
 <title>Testing Page</title>
 </head>
  

@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
+<%@ include file="../common/header.jspf" %>
+
 <title>Struts 2 - Hello World</title>
 </head>
  

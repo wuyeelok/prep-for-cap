@@ -1,8 +1,5 @@
-<%@ page contentType="text/html; charset=UTF-8"%>
-<%@ taglib prefix="s" uri="/struts-tags" %>
-<!DOCTYPE html>
-<html>
-<head>
+<%@ include file="../common/header.jspf" %>
+
 <title>Struts 2 - Login Application</title>
 </head>
  
