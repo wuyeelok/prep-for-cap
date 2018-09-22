@@ -6,22 +6,25 @@
 
 - [x] Target completion date: **16-Sep-2018**
 
-## Learn Struts 2
-### Complete this:
-- [ ] [setup tutorial](https://youtu.be/2vmsJ8WUhOU)
-- [ ] [setup tutorial](https://o7planning.org/en/10329/struts2-tutorial-for-beginners)
-- [ ] [tutorial](https://www.youtube.com/watch?v=f46WEeM8HTA&list=PLB7BB551126EDD5E0&index=1)
-
-Target completion date: **26-Sep-2018**
-
-### Complete this [tuorial](https://www.youtube.com/watch?v=IhdPzI483Wk)
-
-Target completion date: **30-Sep-2018**
-
 ## Learn MySQL
 complete this [tracks](https://teamtreehouse.com/tracks/beginning-sql)
 
-Target completion date: **12-Oct-2018**
+Target completion date: **28-Sep-2018**
+
+
+## Learn Struts 2
+### Complete this:
+- [ ] [setup tutorial](https://youtu.be/2vmsJ8WUhOU)
+- [x] [setup tutorial](https://o7planning.org/en/10329/struts2-tutorial-for-beginners)
+- [ ] [tutorial](https://www.youtube.com/watch?v=f46WEeM8HTA&list=PLB7BB551126EDD5E0&index=1)
+
+Target completion date: **06-Oct-2018**
+
+### Complete this [tuorial](https://www.youtube.com/watch?v=IhdPzI483Wk)
+
+Target completion date: **10-Oct-2018**
+
+
 
 ## Bonus
 
