@@ -6,11 +6,21 @@
 
 - [x] Target completion date: **16-Sep-2018**
 
+---
+
 ## Learn MySQL
-complete this [tracks](https://teamtreehouse.com/tracks/beginning-sql)
+- [ ] complete this [tracks](https://teamtreehouse.com/tracks/beginning-sql)
 
 Target completion date: **28-Sep-2018**
 
+---
+
+## Learn CSS Float, Flexbox, Grid 
+- [ ] complete the [exercise](https://youtu.be/68dwHUa_XYo)
+
+Target completion date: **04-Oct-2018**
+
+---
 
 ## Learn Struts 2
 ### Complete this:
@@ -18,19 +28,18 @@ Target completion date: **28-Sep-2018**
 - [x] [setup tutorial](https://o7planning.org/en/10329/struts2-tutorial-for-beginners)
 - [ ] [tutorial](https://www.youtube.com/watch?v=f46WEeM8HTA&list=PLB7BB551126EDD5E0&index=1)
 
-Target completion date: **06-Oct-2018**
+Target completion date: **13-Oct-2018**
 
 ### Complete this [tuorial](https://www.youtube.com/watch?v=IhdPzI483Wk)
 
-Target completion date: **10-Oct-2018**
+- [ ] Target completion date: **17-Oct-2018**
 
 
 
-## Bonus
+## Bonus(If have time during treehouse trial period)
 
-* Learn [Regular Expression in Java](https://teamtreehouse.com/library/regular-expressions-in-java)
-Target completion date: **14-Oct-2018**
+- [ ] Learn [Regular Expression in Java](https://teamtreehouse.com/library/regular-expressions-in-java)
 
-* Learn [Functional Programming in Java](https://teamtreehouse.com/library/introduction-to-functional-programming)
 
-Target completion date: **17-Oct-2018**
+- [ ] Learn [Functional Programming in Java](https://teamtreehouse.com/library/introduction-to-functional-programming)
+
