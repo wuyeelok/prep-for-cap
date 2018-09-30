@@ -9,7 +9,7 @@
 ---
 
 ## Learn MySQL
-- [ ] complete this [tracks](https://teamtreehouse.com/tracks/beginning-sql)
+- [x] complete this [tracks](https://teamtreehouse.com/tracks/beginning-sql)
 
 Target completion date: **28-Sep-2018**
 
