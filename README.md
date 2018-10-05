@@ -16,7 +16,7 @@ Target completion date: **28-Sep-2018**
 ---
 
 ## Learn CSS Float, Flexbox, Grid 
-- [ ] complete the [exercise](https://youtu.be/68dwHUa_XYo)
+- [x] complete the [exercise](https://youtu.be/68dwHUa_XYo)
 
 Target completion date: **04-Oct-2018**
 
