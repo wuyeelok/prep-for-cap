@@ -22,7 +22,14 @@ Target completion date: **04-Oct-2018**
 
 ---
 
-## Learn Struts 2
+## Learn JS Regular Expression
+- [ ] complete this [course](https://teamtreehouse.com/library/regular-expressions-in-javascript)
+
+Taget completion date: **10-Oct-2018**
+
+---
+
+## Learn Struts 2[Skip because no idea which version]
 ### Complete this:
 - [ ] [setup tutorial](https://youtu.be/2vmsJ8WUhOU)
 - [x] [setup tutorial](https://o7planning.org/en/10329/struts2-tutorial-for-beginners)
