@@ -38,8 +38,8 @@ Target completion date: **13-Oct-2018**
 
 ## Bonus(If have time during treehouse trial period)
 
-- [ ] Learn [Regular Expression in Java](https://teamtreehouse.com/library/regular-expressions-in-java)
+- [x] Learn [Regular Expression in Java](https://teamtreehouse.com/library/regular-expressions-in-java)
 
 
-- [ ] Learn [Functional Programming in Java](https://teamtreehouse.com/library/introduction-to-functional-programming)
+- [x] Learn [Functional Programming in Java](https://teamtreehouse.com/library/introduction-to-functional-programming)
 
